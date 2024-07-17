@@ -71,7 +71,7 @@ button {
   color: white;
   padding: 8px 32px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-weight: 700;
   font-size: 18px;
 }
@@ -129,10 +129,28 @@ ul.info-list {
   max-width: 90%;
   margin-left: auto;
 }
+
 .quote blockquote p {
   font-weight: 900;
   font-style: normal;
   font-size: 20px;
   text-align: right;
   margin-right: 32px;
+}
+
+.cta {
+  background-color: #3882f6;
+  padding: 48px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 72px auto;
+  width: 100%;
+  border-radius: 10px;
+  line-height: .5;
+}
+
+.cta button {
+  border: 2px solid white;
 }
