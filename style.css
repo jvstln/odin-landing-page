@@ -154,3 +154,13 @@ ul.info-list {
 .cta button {
   border: 2px solid white;
 }
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  height: 100px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
