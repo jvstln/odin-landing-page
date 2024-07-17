@@ -112,3 +112,27 @@ ul.info-list {
   max-width: 200px;
   color: #555;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+  max-width: 90%;
+  margin-left: auto;
+}
+.quote blockquote p {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 32px;
+}
