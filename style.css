@@ -21,7 +21,8 @@ p {
   margin: auto;
 }
 
-.header, .hero-section {
+.header,
+.hero-section {
   background-color: #1f2937;
 }
 
@@ -79,7 +80,7 @@ button {
 img {
   max-width: 100%;
   object-fit: cover;
-  /* object-position: 50% 70%; */
+  object-position: 50% 60%;
 }
 
 .info {
@@ -148,7 +149,7 @@ ul.info-list {
   margin: 72px auto;
   width: 100%;
   border-radius: 10px;
-  line-height: .5;
+  line-height: 0.5;
 }
 
 .cta button {
